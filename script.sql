@@ -13,3 +13,6 @@ VALUE
 	(1,'Game of Thrones','George R. R. Martin'), 
 	(2, 'A Tale of Two Cities', 'Charles Dickens'),
 	(3, 'Don Quixote', 'Miguel de Cervantes');
+    
+SELECT * FROM `Book` 
+WHERE id=1;
